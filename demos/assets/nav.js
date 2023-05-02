@@ -15,7 +15,6 @@ let allurls = {
     ],
     "elements": [
         {u:"elements.html",t: "Elemente verändern"},
-        {u:"redirect.html",t: "Weiterleitung"},
         {u:"deleting-elements.html",t: "Elemente löschen"},
         {u:"overlay.html",t: "Blockierte Seite"},
         {u:"timed-button.html",t: "Blockierter Knopf"},
