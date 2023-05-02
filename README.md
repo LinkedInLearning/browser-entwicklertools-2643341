@@ -4,4 +4,4 @@ Demoseiten für den "Browser Entwickler Tools für Nicht-Entwickler:Innen" Kurs 
 
 Zum selbst ausprobieren:
 
-[Zu den Kursdemos](https://jubilant-bassoon-q4ojlme.pages.github.io/)
+[Zu den Kursdemos](https://jubilant-bassoon-q4ojlme.pages.github.io/demos/index.html)
