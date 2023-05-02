@@ -4,4 +4,4 @@ Demoseiten für den "Browser Entwickler Tools für Nicht-Entwickler:Innen" Kurs 
 
 Zum selbst ausprobieren:
 
-[https://codepo8.github.io/devtools-deutsch/demos/](https://codepo8.github.io/devtools-deutsch/demos/)
+[https://jubilant-bassoon-q4ojlme.pages.github.io/]
