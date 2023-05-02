@@ -64,7 +64,7 @@ footer a {
 nav {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 99%;
     background: var(--navbg);
     border-bottom: 1px solid var(--navborder);
     padding-bottom: 1em;

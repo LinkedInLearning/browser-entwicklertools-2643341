@@ -55,7 +55,7 @@ header, section {
 nav {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 99%;
     background: #eee;
     border-bottom: 1px solid #ccc;
     padding-bottom: 1em;
