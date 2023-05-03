@@ -56,7 +56,6 @@ section {
     max-width: 80vw;
     margin: 0 auto;
 }
-
 nav {
     position: absolute;
     top: 0;
@@ -67,32 +66,26 @@ nav {
     display: flex;
     justify-content: center;
 }
-
+nav path {
+    fill: inherit;
+}
 nav ul {
     font-size: .8em;
+    justify-content: center;
     list-style: none;
     margin: 1em 0 0 0;
-    padding: 0 1em;
-    gap: 1em;
+    padding: 0;
     display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
 }
-.back {
-    flex: 1;
-    text-align: right;
-}
-
 nav li {
+    flex: 1;
     white-space: nowrap;
 }
-
 nav li a {
     color: #369;
     display: inline-block;
-}
-nav li:last-of-type {
-    position: absolute;
-    left: 1em;
-    padding-top: .4em;
 }
 
 section {
