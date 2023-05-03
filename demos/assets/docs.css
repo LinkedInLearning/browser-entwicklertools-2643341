@@ -88,6 +88,13 @@ nav li a {
     display: inline-block;
 }
 
+nav li:last-of-type {
+    position: absolute;
+    top: 1.1em;
+    left: 1em;
+}
+
+
 section {
     font-size: 1.3em;
     display: flex;
