@@ -26,7 +26,8 @@ let allurls = {
         {u:"elements-without-space.html",t: "Seitenelemente ohne viel Piatz"}
     ],
     "screenshots": [
-        {u:"long-page.html",t: "Lange Seite"}
+        {u:"long-page.html",t: "Lange Seite"},
+        {u:"video.html",t: "Video"}
     ],
     "simulation": [
         {u:"mobile-version.html",t: "Bildergallerie"},
