@@ -79,7 +79,7 @@
     <script>
         function nocookie() {
             document.body.className = '';
-        }
+        }            
         document.querySelector('#cset').addEventListener('click', e => {
             e.preventDefault();
             let cname = document.querySelector('#cname').value;
@@ -88,6 +88,13 @@
                 document.cookie = `${cname}=${cvalue}; SameSite=None; Secure`;
                 document.body.className = 'set';
                 window.setTimeout(nocookie,2000);
+                if (window.localStorage.getItem('keinkeks')) {
+                    let keks = JSON.parse(window.localStorage.getItem('keinkeks'));
+                    keks[cname] = cvalue;
+                    window.localStorage.setItem('keinkeks', JSON.stringify(keks));
+                } else {
+                    window.localStorage.setItem('keinkeks', `{"${cname}":"${cvalue}"}`);
+                }
             }
         })
         document.querySelector('#cread').addEventListener('click', e => {
