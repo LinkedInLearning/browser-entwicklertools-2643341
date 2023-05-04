@@ -111,5 +111,13 @@
     </ul>
     <nav><ul></ul></nav>
     <script src="../assets/nav.js"></script>
+    <script>
+        setInterval(() => {
+            fetch('https://httpbin.org/post', {
+                method: 'POST',
+                body: 'message=tracked'
+            });
+        }, 4000);
+    </script>
 </body>
 </html>
