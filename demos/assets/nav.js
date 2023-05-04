@@ -41,7 +41,6 @@ let allurls = {
 
 let current = document.location.href.split('/').pop();
 let chunks = document.location.href.split('/');
-console.log(chunks[chunks.length-2])
 let urls = [];
 urls.push({u:"index.html",t: "Einleitung"});
 urls = urls.concat(allurls[chunks[chunks.length-2]]);
