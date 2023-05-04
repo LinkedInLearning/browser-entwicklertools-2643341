@@ -3,7 +3,7 @@ let allurls = {
             {u:"messages.html",t: "Information Filtern"}
     ],
     "consolescripts": [
-        {u:"scripts.html",t: "Eigene Sipte erstellen"},
+        {u:"scripts.html",t: "Eigene Skripte erstellen"},
     ],
     "network": [
             {u:"gallery.html",t: "Bilder im Dokument"},
