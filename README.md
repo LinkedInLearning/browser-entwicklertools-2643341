@@ -14,7 +14,7 @@ Demoseiten für den "Browser Entwickler Tools für Nicht-Entwickler:innen" Kurs 
 
 Zum selbst ausprobieren:
 
-[Zu den Kursdemos](https://jubilant-bassoon-q4ojlme.pages.github.io/demos/index.html)
+[Zu den Kursdemos](https://linkedinlearning.github.io/browser-entwicklertools-2643341/demos/index.html)
 
 ### Autor
 
